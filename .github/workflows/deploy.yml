@@ -48,11 +48,11 @@ jobs:
       - name: Test
         run: ls
       - name: Create
-        run: touch docs/.vitepress/dist/.nojekyll
+        run: touch .nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: ./
 
   # Deployment job
   deploy:
