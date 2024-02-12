@@ -46,7 +46,7 @@ jobs:
       - name: Build with VitePress
         run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Test
-        run: ls -la
+        run: ls -la .vitepress
       - name: Create
         run: touch .nojekyll
       - name: Upload artifact
