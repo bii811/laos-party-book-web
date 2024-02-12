@@ -2,30 +2,30 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Laos Party Book",
-  description: "Website for Laos Party Book",
+  title: "ປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ",
+  description: "ເວັບໄຊປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Book', link: '/intro' }
+      { text: 'ໜ້າຫຼັກ', link: '/' },
+      { text: 'ປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ', link: '/intro' }
     ],
 
     sidebar: [
       {
-        text: 'Laos Party Book',
+        text: 'ປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ',
         items: [
-          { text: 'Intro', link: '/intro' },
-          { text: 'Chapter 1', link: '/chapter1' }
+          { text: 'ກ່ຽວກັບ', link: '/intro' },
+          { text: 'ໝວດ 1', link: '/chapter1' }
         ]
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })
