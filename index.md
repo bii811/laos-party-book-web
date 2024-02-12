@@ -7,8 +7,8 @@ hero:
   text: "ເວັບໄຊປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ"
   # tagline: My great project tagline
   image:
-    src: /img/p-flag.png
-    alt: VitePress
+    src: img/p-flag.png
+    alt: flag
   actions:
     - theme: brand
       text: ປຶ້ມກົດລະບຽບພັກປະຊາຊົນປະຕິວັດລາວ
